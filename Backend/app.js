@@ -13,7 +13,7 @@ const path = require('path');
 connectToDb();
 const _dirname = path.resolve();
 const corsOptions = {
-    origin:'localhost:5173',
+    origin:'http://localhost:5173',
     credentials:true
 }
 
