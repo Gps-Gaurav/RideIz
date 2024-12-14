@@ -12,6 +12,7 @@ const rideRoutes = require('./routes/ride.routes');
 const path = require('path');
 connectToDb();
 const _dirname = path.resolve();
+
 const corsOptions = {
     origin:'http://localhost:5173',
     credentials:true
